@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Test page</title>
+        <style>
+            html,
+            body {
+                height: 100%;
+                width: 100%;
+            }
+
+            iframe {
+                width: 100%;
+                height: 100%;
+                border: 1cm;
+            }
+            div {
+                height: 100%;
+                border: 1cm;
+                width: 100%;
+            }
+            p {
+                font-family: 'Times New Roman', Times, serif;
+                width: 100%;
+                border: 1cm;
+            }
+        </style>
+        <a href="index.html">Go back</a><h1>GDP/Literacy Correlation</h1>
+    </head>
+		
+    <body>
+        <p>Taking the previous two maps into account, we created this correlational choropleth map to make some of our final conclusions. Each state is shaded according to whether they individually had similar relative values across the two variables or if it deviated. For instance, Texas has a low correlation score because it has a lower literacy rate yet a higher GDP per capita, creating a mismatch. This is called an “agreement score”, where states with consistently higher or lower scores are scored higher. We would ordinarily expect this entire map to be shaded with dark colors.</p>
+		<iframe src="subpages/corr_avg.html" title="Correlation map between literacy and GDP per capita"></iframe>
+
+	</body>
+	<footer>
+        <p> Sam Sweet and David Bunich, 2025</p>
+    </footer>
+</html>
