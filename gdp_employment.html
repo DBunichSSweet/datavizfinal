@@ -1,35 +1,17 @@
 <!DOCTYPE html>
+<link rel="stylesheet" href="style.css">
 <html>
     <head>
-        <title>Test page</title>
-        <style>
-            html,
-            body {
-                height: 100%;
-                width: 100%;
-            }
-
-            iframe {
-                width: 100%;
-                height: 100%;
-                border: 1cm;
-            }
-            div {
-                height: 100%;
-                border: 1cm;
-                width: 100%;
-            }
-            p {
-                font-family: 'Times New Roman', Times, serif;
-                width: 100%;
-                border: 1cm;
-            }
-        </style>
+        <title>Literacy Correlation and GDP</title>
         <a href="index.html">Go back</a><h1>Literacy Correlation and GDP Per Capita by State</h1>
     </head>
 		
     <body>
-		<iframe src="subpages/employvslit.html" title="Literacy Rate vs Employment Proportion"></iframe>
+        <p><h2>Employment Proportion vs. GDP per capita by state</h2></p>
+        <p> GDP per capita was calculated using the given populations for the literacy data </p>
+        <div class="two">
+		    <iframe class="two" src="subpages/employvslit.html" title="Literacy Rate vs Employment Proportion"></iframe>
+        </div>
         <p>This choropleth map shows the GDP per capita per state in the year 2017, which is the most recent year covered by our literacy data source.</p>
 		<iframe src="subpages/litscore.html" title="Average Literacy Rate by State"></iframe>
 

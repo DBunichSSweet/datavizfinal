@@ -1,0 +1,37 @@
+a:link {
+  color:lightskyblue;
+}
+
+a:visited {
+  color: lightsteelblue;
+}
+h1,h2,h3 {
+	color: lightsteelblue;
+}
+html, body {
+	background-color: rgb(50, 72, 72);
+	height: 100%;
+	width: 100%;
+}
+
+iframe {
+	width: 100%;
+	border: 1cm;
+	height: 100%;
+}
+div {
+	height: 100%;
+	border: 1cm;
+	width: 100%;
+}
+p {
+	font-family: 'Times New Roman', Times, serif;
+	width: 98%;
+	color: deepskyblue;
+	border: 1cm;
+}
+iframe.two{
+	width: 50%;
+	height: 60%;
+	border: 1cm;
+}
